@@ -1,0 +1,1 @@
+Current Phase: Phase 1 – MVP phase.md
