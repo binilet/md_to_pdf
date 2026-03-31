@@ -105,6 +105,8 @@ pdfRouter.post(
             try {
                 const parsed = JSON.parse(req.body.theme);
                 theme = ThemeSchema.parse(parsed);
+                console.log("parsed")
+                console.log(req.body.theme);
             } catch {
                 res.status(400).json({ error: 'Invalid theme JSON' });
                 return;

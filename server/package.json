@@ -3,6 +3,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node -r tsconfig-paths/register src/index.ts"
   },
+  "type": "commonjs",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -12,16 +13,17 @@
     "express": "^4",
     "highlight.js": "latest",
     "marked": "^12",
+    "multer": "^1.4.5-lts.1",
     "puppeteer": "^22",
-    "zod": "latest",
-    "multer": "^1.4.5-lts.1"
+    "yargs": "^17.7.2",
+    "zod": "latest"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^4.17.21",
     "@types/marked": "^5.0.2",
-    "@types/node": "^24.10.1",
     "@types/multer": "^1.4.11",
+    "@types/node": "^24.10.1",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.3"
